@@ -5,6 +5,7 @@ import { FaTools, FaClock, FaCheckCircle, FaUserTie } from 'react-icons/fa';
 import Button from '../components/ui/Button';
 import Modal from '../components/common/Modal';
 import ContactForm from '../components/common/ContactForm';
+import ReviewsSection from '../components/common/ReviewsSection';
 import SEO from '../components/SEO';
 import { projectCategories } from '../data/projectData';
 
@@ -153,6 +154,9 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
+      {/* Reviews Section */}
+      <ReviewsSection />
 
       {/* About Section */}
       <section className="py-20 bg-gray-50">

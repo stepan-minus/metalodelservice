@@ -16,8 +16,6 @@ const ProjectsPage = () => {
       label: 'Лестницы',
       subcategories: {
         'vintovye': 'Винтовые',
-        'pryamye': 'Прямые',
-        'modulnye': 'Модульные',
         'marshevye': 'Маршевые'
       }
     },
@@ -25,18 +23,14 @@ const ProjectsPage = () => {
       label: 'Ворота и ограждения',
       subcategories: {
         'otkatnye': 'Откатные ворота',
-        'raspashnye': 'Распашные ворота',
         'ograzhdeniya': 'Ограждения',
-        'perila': 'Перила'
       }
     },
     other: {
       label: 'Другие конструкции',
-      subcategories: {
-        'navesy': 'Навесы',
+      subcategories: {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
         'fasadnye': 'Фасадные конструкции',
         'mebel': 'Металлическая мебель',
-        'raznoe': 'Разное'
       }
     }
   };
