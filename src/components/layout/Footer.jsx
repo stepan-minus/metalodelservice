@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Metallo Del Service</h3>
+            <h3 className="text-xl font-bold mb-4">Металло Дел Сервис</h3>
             <p className="text-steel">
               Изготовление металлоконструкций любой сложности с гарантией качества и соблюдением сроков.
             </p>
@@ -32,7 +32,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <FaMapMarkerAlt className="text-primary" />
                 <span className="text-steel">
-                  г. Москва, ул. Примерная, д. 123
+                  г. Новосибирск, ул. Примерная, д. 123
                 </span>
               </div>
             </div>
@@ -40,10 +40,10 @@ const Footer = () => {
 
           {/* Social Links */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Мы в соцсетях</h3>
+            <h3 className="text-xl font-bold mb-4">Соцсети</h3>
             <div className="flex space-x-4">
               <a 
-                href="https://vk.com" 
+                href="https://vk.com/zzzzz77781" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-steel hover:text-white transition-colors"
@@ -51,7 +51,7 @@ const Footer = () => {
                 <FaVk size={24} />
               </a>
               <a 
-                href="https://t.me" 
+                href="https://t.me/MetaloDel" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-steel hover:text-white transition-colors"
@@ -64,7 +64,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-steel/20 mt-8 pt-8 text-center text-steel">
-          <p>© {new Date().getFullYear()} Metallo Del Service. Все права защищены.</p>
+          <p>© {new Date().getFullYear()} Металло Дел Сервис. Все права защищены.</p>
         </div>
       </div>
     </footer>

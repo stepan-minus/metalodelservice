@@ -12,24 +12,24 @@ const ProjectsPage = () => {
       label: 'Все проекты',
       subcategories: {}
     },
-    stairs: {
+    lestnitsy: {
       label: 'Лестницы',
       subcategories: {
         'vintovye': 'Винтовые',
         'marshevye': 'Маршевые'
       }
     },
-    gates: {
+    vorota_ograzhdeniya: {
       label: 'Ворота и ограждения',
       subcategories: {
         'otkatnye': 'Откатные ворота',
         'ograzhdeniya': 'Ограждения',
       }
     },
-    other: {
+    drugie: {
       label: 'Другие конструкции',
       subcategories: {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
-        'fasadnye': 'Фасадные конструкции',
+        'raznoe': 'Разное',
         'mebel': 'Металлическая мебель',
       }
     }

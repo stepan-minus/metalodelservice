@@ -18,7 +18,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <NavLink to="/" className="text-2xl font-bold text-secondary">
-            Metallo Del Service
+            Металло Дел Сервис
           </NavLink>
 
           {/* Desktop Navigation */}
@@ -41,19 +41,16 @@ const Header = () => {
             
             {/* Social Icons */}
             <div className="flex items-center space-x-4">
-              <a href="https://vk.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://vk.com/zzzzz77781" target="_blank" rel="noopener noreferrer" 
                 className="text-secondary hover:text-primary transition-colors">
                 <FaVk size={24} />
               </a>
-              <a href="https://t.me" target="_blank" rel="noopener noreferrer"
+              <a href="https://t.me/MetaloDel" target="_blank" rel="noopener noreferrer"
                 className="text-secondary hover:text-primary transition-colors">
                 <FaTelegram size={24} />
               </a>
             </div>
-
-            <Button variant="primary">
-              Оставить заявку
-            </Button>
+            
           </nav>
 
           {/* Mobile Menu Button */}
@@ -88,11 +85,11 @@ const Header = () => {
               
               {/* Social Icons */}
               <div className="flex space-x-4 py-4">
-                <a href="https://vk.com" target="_blank" rel="noopener noreferrer" 
+                <a href="https://vk.com/zzzzz77781" target="_blank" rel="noopener noreferrer" 
                   className="text-secondary hover:text-primary transition-colors">
                   <FaVk size={24} />
                 </a>
-                <a href="https://t.me" target="_blank" rel="noopener noreferrer"
+                <a href="https://t.me/MetaloDel" target="_blank" rel="noopener noreferrer"
                   className="text-secondary hover:text-primary transition-colors">
                   <FaTelegram size={24} />
                 </a>
